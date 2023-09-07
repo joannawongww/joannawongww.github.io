@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="./img/peach-icon.png" type="type/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.production.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header class="page-header">
+        <img src="img/logo.png" alt="logo" class="page-header__item">
+        <nav class="main-navigation page-header__item">
+            <ul role="menubar" class="navigation-list">
+                <li role="presentation">
+                    <a href="index.html" role="menuitem"
+                        class="navigation-list__item navigation-list__item--active">Home</a>
+                </li>
+                <li role="presentation">
+                    <a href="about.html" role="menuitem" class="navigation-list__item">About</a>
+                </li>
+                <li role="presentation">
+                    <a href="projects.html" role="menuitem" class="navigation-list__item">Projects</a>
+                </li>
+                <li role="presentation">
+                    <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact">
+        <h1>Contact Me</h1>
+
+        <p>Joanna Wong</p>
+        <a href="#">Check out some of my code!</a>
+        <br>
+        <a href="tel:+65 9233 7766">Tel: +65 9233 7766</a>
+        <br>
+        <a href="mailto:joanna_1994@hotmail.com">Email: joanna_1994@hotmail.com</a>
+    </main>
+
+    <footer class="page-footer">
+        <form action="" method="post" id="contact-form">
+            <label class="standard-label" for="contact-email">Email:</label>
+            <input type="email" id="contact-email" required>
+            <br>
+            <label class="standard-label" for="contact-tel">Telephone:</label>
+            <input type="tel" id="contact-tel">
+            <br>
+            <label class="standard-label" for="contact-message">Message:</label>
+            <textarea maxlength="240" id="contact-message" required></textarea>
+            <br>
+            <input type="submit" value="Send message">
+        </form>
+
+        <p>Find me on</p>
+        <div>
+            <a target="_blank" href="https://github.com/joannawongww"><img src="./img/github-icon.svg" alt="Github"></a>
+            <img src="./img/twitter-icon.svg" alt="Twitter">
+            <a target="_blank" href="https://sg.linkedin.com/in/joannawongww"><img src="./img/linkedin-icon.svg"
+                    alt="LinkedIn"></a>
+        </div>
+
+    </footer>
+
+    <script src="js/tota11y.min.js"></script>
+</body>
+
+</html>

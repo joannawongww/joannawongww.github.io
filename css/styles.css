@@ -91,6 +91,11 @@ input:focus {
   cursor: pointer;
 }
 
+.project-img {
+  width: 300px;
+  height: 350px;
+}
+
 .profile {
   max-width: 700px;
   margin: 0 auto;

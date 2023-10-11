@@ -98,11 +98,6 @@ button:focus,
   color: #3b8063;
 }
 
-.project-img {
-  width: 300px;
-  height: 350px;
-}
-
 input {
   background-color: #ffffff;
   color: undefined;
